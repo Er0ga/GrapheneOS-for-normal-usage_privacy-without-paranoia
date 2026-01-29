@@ -3,8 +3,9 @@
 This repository aims to provide a simple guide to set up GrapheneOS on Google Pixel devices. It is intended for users who want better privacy and control of their mobile device without sacrificing usability or spending much time.
 
 I created this repo because when I looked for resources on how to set up GrapheneOS, almost every one I found aimed at users with extreme privacy concerns (at the expense of usability). I just wanted a practical, everyday smartphone experience with better privacy and control, without giving up much usability or spending excessive time configuring it.
-
 <br>
+
+---
 
 ## Instalation
 
@@ -19,6 +20,7 @@ Before continuing check if your browser, OS and mobile are supported.
 > Almost every major OS is supported but you can check yours in [https://grapheneos.org/install/web#prerequisites](https://grapheneos.org/install/web#prerequisites)
 
 <br>
+
 First, the OEM unlocking option needs to be enabled from within the phone's operating system. To do this, enable the Developer options menu: go to **Settings > About phone/tablet** and tap the **Build number** menu entry until you see a message confirming that developer mode is enabled. Then, navigate to **Settings > System > Developer options** and enable **OEM unlocking**. (On some devices, you must be connected to Wi-Fi to enable this feature, as it checks if the phone has been reported as stolen.) (**Verizon Pixel phones cannot** have their bootloader unlocked, which is a requirement for installing GrapheneOS.)
 
 
@@ -36,3 +38,17 @@ After the flashing step is complete, click on **Lock bootloader**. This is cruci
 &nbsp;
 
 Finally, you just need to complete the initial GrapheneOS setup. For security purposes, you should now disable OEM unlocking again. Go to **Settings > About phone/tablet** and tap the **Build number** menu entry if developer mode isn't already enabled. Then, navigate to **Settings > System > Developer options** and disable **OEM unlocking**. You can now also disable the Developer options menu if you wish.
+
+---
+## Getting Apps
+
+On Graphene OS you have an app called **App Store** in which there are the GrapheneOS official apps (Auditor, Camera, Info, Messaging, PDF Viewer) , [Accrescent](https://accrescent.app/) ("A novel Android app store focused on security, privacy, and usability. Currently in alpha.") and the ones of the Google Ecosystem (Android Auto, Google Play Store, Google Play services and Markup).
+
+
+### App Stores
+
+[F-Droid](https://f-droid.org/es/): The premier app store for Open Source Android applications, prioritizing privacy and user freedom. The store for Open Source apps that I recomend. Apps cannot deppend on Google Play Services, are checked for security problems before they are added, you can see the permissions and versions of the app... 
+
+[Aurora Store:](https://auroraoss.com/aurora-store) The most popular free and Open Source alternative for Google Play Store, it is an anonymous Play Store client.
+
+[Google Play Store:](https://play.google.com/store/) Google´s official app store, unlike the othe app stores you need to sign in. Some apps can only be installed through this store or will have limitations if they are not installed from here, for example Google Maps, WhatsApp, or banking apps.
