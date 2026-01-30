@@ -42,7 +42,7 @@ Finally, you just need to complete the initial GrapheneOS setup. For security pu
 ---
 ## Getting Apps
 
-On Graphene OS you have an app called **App Store** in which there are the GrapheneOS official apps (Auditor, Camera, Info, Messaging, PDF Viewer) , [Accrescent](https://accrescent.app/) ("A novel Android app store focused on security, privacy, and usability. Currently in alpha.") and the ones of the Google Ecosystem (Android Auto, Google Play Store, Google Play services and Markup).
+On Graphene OS you have an app called **App Store** in which there are the GrapheneOS official apps (Auditor, Camera, Info, Messaging, PDF Viewer) , [Accrescent](https://accrescent.app/) and the ones of the Google Ecosystem (mirror) (Android Auto, Google Play Store, Google Play services and Markup).
 
 
 ### App Stores
@@ -52,3 +52,32 @@ On Graphene OS you have an app called **App Store** in which there are the Graph
 [Aurora Store:](https://auroraoss.com/aurora-store) The most popular free and Open Source alternative for Google Play Store, it is an anonymous Play Store client.
 
 [Google Play Store:](https://play.google.com/store/) Google´s official app store, unlike the othe app stores you need to sign in. Some apps can only be installed through this store or will have limitations if they are not installed from here, for example Google Maps, WhatsApp, or banking apps.
+
+
+**De-Googling Your Apps**
+
+To reduce reliance on big tech companies, consider using privacy-focused alternatives for your daily mobile needs:
+
+**Email:** Use private email providers such as [Proton Mail](https://proton.me/mail) or [Tutanota](https://tutanota.com/). If you already have a Gmail account, opt for an open-source client like [Thunderbird](https://www.thunderbird.net/)  instead of the closed-source Gmail app.
+
+**Browsers:** [Vanadium](https://grapheneos.org/features#vanadium) is a robust option available out of the box on GrapheneOS. [Brave](https://brave.com/) and [Firefox](https://www.mozilla.org/en-US/firefox/mobile/) (with privacy settings adjusted) are also strong alternatives.
+
+**Password Managers:** Choose an open-source password manager like [Proton Pass](https://proton.me/pass) or [KeePassDX](https://www.keepassdx.com/).
+
+**YouTube:** For ad-free, telemetry-free, background running YouTube viewing without an account, you can try [NewPipe](https://newpipe.net/) or if you want almost the same experience but with your account you can try using Youtube on brave.
+
+**Basic Apps:** For essential apps (gallery, calendar, file manager, etc.), check out the [Fossify](https://fossify.org/) repository. These apps are available on Aurora Store and F-Droid.
+
+**Other Recommended Apps**
+
+- **2FA:** [Aegis](https://getaegis.app/), [Ente Auth](https://ente.io/auth), [Proton Auth](https://proton.me/auth)
+- **Photos:** [Ente Photos](https://ente.io/), [Immich](https://immich.app/)
+- **Notes:** [Notesnook](https://notesnook.com/), [Obsidian](https://obsidian.md/), [Cryptee](https://cryptee.com/)
+- **Cloud Storage:** [Proton Drive](https://proton.me/drive), [Syncthing](https://syncthing.net/), [Filen](https://filen.io/), [Nextcloud](https://nextcloud.com/)
+
+**Where to Find More Apps**
+
+- [PrivacyTools by Techlore](https://privacytools.techlore.tech/)
+- [Privacy Guides](https://privacyguides.org/en/tools/)
+- [AlternativeTo](https://alternativeto.net/platform/android/)
+
