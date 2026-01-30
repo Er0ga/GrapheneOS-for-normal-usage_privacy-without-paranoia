@@ -68,9 +68,19 @@ To reduce reliance on big tech companies, consider using privacy-focused alterna
 
 **Basic Apps:** For essential apps (gallery, calendar, file manager, etc.), check out the [Fossify](https://fossify.org/) repository. These apps are available on Aurora Store and F-Droid.
 
+
+### Additional Notes and Limitations
+
+**Mobile Payment Wallets:** I haven’t found an open-source alternative to Google Wallet that allows contactless payments on GrapheneOS. Google Wallet is not compatible with GrapheneOS. However, if you need a wallet app for storing tickets (bus, plane, concert, etc.), you can try [FossWallet](https://fossify.org/), available on F-Droid and Aurora Store. 
+
+
+**Android Auto:** I haven’t tested Android Auto on GrapheneOS. According to the official documentation, compatibility may vary. For more information, check the [Android Auto section](https://grapheneos.org/usage#android-auto) on the project’s website.
+
+
+
 **Other Recommended Apps**
 
-- **2FA:** [Aegis](https://getaegis.app/), [Ente Auth](https://ente.io/auth), [Proton Auth](https://proton.me/auth)
+- **2FA:** [Aegis](https://getaegis.app/), [Ente Auth](https://ente.io/auth), [Proton Auth](https://proton.me/authenticator)
 - **Photos:** [Ente Photos](https://ente.io/), [Immich](https://immich.app/)
 - **Notes:** [Notesnook](https://notesnook.com/), [Obsidian](https://obsidian.md/), [Cryptee](https://cryptee.com/)
 - **Cloud Storage:** [Proton Drive](https://proton.me/drive), [Syncthing](https://syncthing.net/), [Filen](https://filen.io/), [Nextcloud](https://nextcloud.com/)
