@@ -47,7 +47,7 @@ On Graphene OS you have an app called **App Store** in which there are the Graph
 
 ### App Stores
 
-[F-Droid](https://f-droid.org/es/): The premier app store for Open Source Android applications, prioritizing privacy and user freedom. The store for Open Source apps that I recomend. Apps cannot deppend on Google Play Services, are checked for security problems before they are added, you can see the permissions and versions of the app... 
+[F-Droid](https://f-droid.org/): The premier app store for Open Source Android applications, prioritizing privacy and user freedom. The store for Open Source apps that I recomend. Apps cannot deppend on Google Play Services, are checked for security problems before they are added, you can see the permissions and versions of the app... 
 
 [Aurora Store:](https://auroraoss.com/aurora-store) The most popular free and Open Source alternative for Google Play Store, it is an anonymous Play Store client.
 
@@ -66,8 +66,11 @@ To reduce reliance on big tech companies, consider using privacy-focused alterna
 
 **YouTube:** For ad-free, telemetry-free, background running YouTube viewing without an account, you can try [NewPipe](https://newpipe.net/) or if you want almost the same experience but with your account you can try using Youtube on brave.
 
+**Maps:** Organic MapxThere is no open source as good as Google maps from my experience so if 
+
 **Basic Apps:** For essential apps (gallery, calendar, file manager, etc.), check out the [Fossify](https://fossify.org/) repository. These apps are available on Aurora Store and F-Droid.
 
+**Maps:** [Organic Maps](https://organicmaps.app/) and [OsmAnd](https://osmand.net/) are two strong open source alternatives to Google Maps, but in my opinion, they are far from offering a similar experience .
 
 ### Additional Notes and Limitations
 
@@ -76,6 +79,7 @@ To reduce reliance on big tech companies, consider using privacy-focused alterna
 
 **Android Auto:** I haven’t tested Android Auto on GrapheneOS. According to the official documentation, compatibility may vary. For more information, check the [Android Auto section](https://grapheneos.org/usage#android-auto) on the project’s website.
 
+**GPS:** You won’t be able to use GPS and precise location on any app out of the box. For that, I have the GPS section in this guide.
 
 
 **Other Recommended Apps**
