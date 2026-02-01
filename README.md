@@ -95,3 +95,37 @@ To reduce reliance on big tech companies, consider using privacy-focused alterna
 - [Privacy Guides](https://privacyguides.org/en/tools/)
 - [AlternativeTo](https://alternativeto.net/platform/android/)
 
+
+---
+
+
+## Location and GPS
+
+GrapheneOS isolates your location data by default. To get navigation apps working without leaking your IP address or location history to Google, you need to configure the redirection services manually.
+
+#### **1. Enable the Global Location**
+
+Go to **Settings > Location** and enable **Use location**, by default this is turned off. (Unlike standard Android, enabling this does not immediately start sending data to the cloud)
+
+#### **2. Configure Privacy Proxies**
+
+Tap on **Location services**.
+
+- Set  **Secure User Plane Location (SUPL)** and **Predicted Satellite Data Service (PSDS)** to **GrapheneOS proxy**.
+- Ensure **Network location** and **Geocoder** are also using the **GrapheneOS proxy**.
+
+This redirects your device's requests through a proxy server. The external servers (like Google’s or Qualcomm’s) will see the proxy's IP address instead of yours, allowing you to get a GPS lock without showing your location.
+
+#### **3. Disable Background Scanning**
+
+In the same **Location services** menu, I recommend disabling **Wi-Fi scanning** and **Bluetooth scanning**.
+
+On standard Android, these are on by default "to improve accuracy", but they constantly broadcast signals to nearby devices even when you aren't using them. Turning this off prevents this passive tracking and improves battery life.
+
+#### **4. App Permissions**
+
+When you open a map application (like Organic Maps) for the first time:
+
+- Select **Allow only while using the app**. (Don´t select "Allow all the time" if you want to prevent background usage).
+
+- Make sure **Use precise location** is toggled **ON** if you need turn-by-turn navigation.
