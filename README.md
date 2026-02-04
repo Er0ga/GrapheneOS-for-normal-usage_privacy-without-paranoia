@@ -129,3 +129,16 @@ When you open a map application (like Organic Maps) for the first time:
 - Select **Allow only while using the app**. (Don´t select "Allow all the time" if you want to prevent background usage).
 
 - Make sure **Use precise location** is toggled **ON** if you need turn-by-turn navigation.
+
+### Google Maps
+To use **Google Maps** normally on GrapheneOS—beyond the settings outlined in the **Location and GPS** section—you must install **Google Play Store** and **Google Play Services** from the GrapheneOS **App Store**.
+
+1. After installing **Google Play Services**, go to **Settings > Apps > Google Play Services** and enable:
+    
+    - **"Allow background activity"**
+    - **"Allow network access"**
+2. Install **Google Maps** from the Google Play Store.
+    
+    - When you first open the app, grant it **location permissions** and **precise location** (select **"Allow only while using the app"**).
+
+---
